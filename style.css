@@ -1,0 +1,93 @@
+@font-face{
+	font-family:"squaretypeB";
+        src: url('squaretypeb-webfont.eot');
+        src: url('squaretypeb-webfont.eot?#iefix') format('embedded-opentype'),
+             url('squaretypeb-webfont.woff') format('woff'),
+             url('squaretypeb-webfont.ttf') format('truetype'),
+             url('squaretypeb-webfont.svg#squaretype_bregular') format('svg');
+}
+
+
+@font-face{
+	font-family:"links";
+        src: url('dekers_light-webfont.eot');
+        src: url('dekers_light-webfont.eot?#iefix') format('embedded-opentype'),
+             url('dekers_light-webfont.woff') format('woff'),
+             url('dekers_light-webfont.ttf') format('truetype'),
+             url('dekers_light-webfont.svg#dekersdekers_light') format('svg');
+}
+
+
+body {
+	/*background-color: #0F0A06;*/
+	background-color: #FEFCE2 /*F5F2BC*/;
+	color:#556270;
+	font-size:16px;	
+	font-weight: 150;
+	margin-left: 5%;
+	margin-right: 30%;
+	letter-spacing: 1px;
+}
+
+p.poemE{
+	font-size:75%;
+	padding: 0% 0% 0% 15%;
+    font-style:italic;	
+    color: #00A6A3;
+}
+
+p.poemO{
+	font-size:75%;
+	padding: 0% 0% 0% 45%;
+    font-style:italic;	
+    color: #00A6A3;
+}
+
+p.end{
+	padding: 0% 0% 0% 50%;
+	color: #000000;
+}
+
+h1{
+	font-family:"squaretypeB";
+	letter-spacing: 20px;
+	font-size: 350%;
+	font-weight: 100;
+	color: #4a071a;
+	margin-top: 10%;
+	text-shadow: 0 0 10px #FCF89A;
+}
+
+h2{
+	font-family:"links";
+	letter-spacing: 2px;
+	font-size: 100%;
+	font-weight: 100;
+	color: #04706E;
+}
+
+a:link{text-decoration: none;
+    color: #51A88E;
+}
+
+a:visited{text-decoration: none;
+	color: #04706E; 
+    
+}
+
+h2.heading{
+	font-family:"links";
+	letter-spacing: 2px;
+	font-size: 105%;
+	font-weight: 200;
+	color: 	#04706E;
+}
+
+ul{
+	list-style: none;
+}
+
+li:before{
+	content: "\00BB \0020";
+	color: 	#000000;
+}
